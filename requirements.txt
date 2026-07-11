@@ -1,0 +1,16 @@
+# ============================================================
+# 1. Install required libraries
+# ============================================================
+# PyMuPDF: PDF text extraction
+pymupdf
+# datasets: Hugging Face dataset creation
+datasets
+# transformers/accelerate: model, tokenizer, Trainer
+transformers 
+accelerate
+# peft: LoRA/QLoRA adapters
+ peft
+# bitsandbytes: 4-bit/8-bit quantized loading
+bitsandbytes 
+torchao
+ipykernel

@@ -1,0 +1,96 @@
+2026-07-04 08:44:55,777 | INFO | non_instruction | Step 1 started
+2026-07-04 08:55:28,402 | INFO | non_instruction | Raw extraction complete
+2026-07-04 08:55:28,404 | INFO | non_instruction | Input rows: 20859
+2026-07-04 08:55:28,405 | INFO | non_instruction | Extracted text rows: 4702
+2026-07-04 08:55:28,406 | INFO | non_instruction | Saved file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\processed\raw_extracted_text.txt
+2026-07-04 09:06:09,230 | INFO | non_instruction | Cleaning complete
+2026-07-04 09:06:09,232 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-04 09:06:09,233 | INFO | non_instruction | Cleaned paragraphs: 17479
+2026-07-04 09:06:09,234 | INFO | non_instruction | Saved cleaned file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\processed\cleaned_text.txt
+2026-07-04 09:16:32,222 | INFO | non_instruction | Data creation complete
+2026-07-04 09:16:32,224 | INFO | non_instruction | Paragraphs written: 17479
+2026-07-04 09:16:32,227 | INFO | non_instruction | Output file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_data.txt
+2026-07-04 09:25:37,356 | INFO | non_instruction | Raw extraction complete
+2026-07-04 09:25:37,358 | INFO | non_instruction | Input rows: 20859
+2026-07-04 09:25:37,359 | INFO | non_instruction | Extracted text rows: 4702
+2026-07-04 09:25:37,362 | INFO | non_instruction | Saved file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\processed\raw_extracted_text.txt
+2026-07-04 09:25:41,631 | INFO | non_instruction | Cleaning complete
+2026-07-04 09:25:41,632 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-04 09:25:41,634 | INFO | non_instruction | Final non-instruction paragraphs: 17479
+2026-07-04 09:25:41,635 | INFO | non_instruction | Saved final file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_data.txt
+2026-07-04 09:26:04,200 | INFO | non_instruction | Cleaning complete
+2026-07-04 09:26:04,201 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-04 09:26:04,202 | INFO | non_instruction | Final non-instruction paragraphs: 17479
+2026-07-04 09:26:04,204 | INFO | non_instruction | Saved final file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_data.txt
+2026-07-04 09:26:27,089 | INFO | non_instruction | Verification complete
+2026-07-04 09:26:27,091 | INFO | non_instruction | Verified file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_data.txt
+2026-07-04 09:26:27,091 | INFO | non_instruction | Paragraphs: 17479
+2026-07-04 09:26:27,092 | INFO | non_instruction | Characters: 7102844
+2026-07-04 09:27:58,124 | INFO | non_instruction | HF dataset creation complete
+2026-07-04 09:27:58,125 | INFO | non_instruction | Total rows: 17479
+2026-07-04 09:27:58,127 | INFO | non_instruction | Train rows: 15731
+2026-07-04 09:27:58,128 | INFO | non_instruction | Validation rows: 1748
+2026-07-04 09:27:58,131 | INFO | non_instruction | Saved dataset to: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\processed\hf_non_instruction_dataset
+2026-07-05 16:24:03,152 | INFO | non_instruction | Step 1 started
+2026-07-05 16:24:15,140 | INFO | non_instruction | Raw extraction complete
+2026-07-05 16:24:15,141 | INFO | non_instruction | Input rows: 20859
+2026-07-05 16:24:15,142 | INFO | non_instruction | Extracted text rows: 4702
+2026-07-05 16:24:15,144 | INFO | non_instruction | Saved file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\raw_extracted_text.txt
+2026-07-05 16:24:44,257 | INFO | non_instruction | Cleaning complete
+2026-07-05 16:24:44,259 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-05 16:24:44,260 | INFO | non_instruction | Final non-instruction paragraphs: 17479
+2026-07-05 16:24:44,261 | INFO | non_instruction | Saved final file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-05 16:25:02,793 | INFO | non_instruction | Verification complete
+2026-07-05 16:25:02,795 | INFO | non_instruction | Verified file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-05 16:25:02,795 | INFO | non_instruction | Paragraphs: 17479
+2026-07-05 16:25:02,796 | INFO | non_instruction | Characters: 7102844
+2026-07-05 16:25:07,264 | INFO | non_instruction | HF dataset creation complete
+2026-07-05 16:25:07,266 | INFO | non_instruction | Total rows: 17479
+2026-07-05 16:25:07,267 | INFO | non_instruction | Train rows: 15731
+2026-07-05 16:25:07,268 | INFO | non_instruction | Validation rows: 1748
+2026-07-05 16:25:07,269 | INFO | non_instruction | Saved dataset to: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\hf_non_instruction_dataset
+2026-07-05 16:47:55,657 | INFO | non_instruction | Tokenization complete
+2026-07-05 16:47:55,659 | INFO | non_instruction | Train tokenized rows: 15731
+2026-07-05 16:47:55,660 | INFO | non_instruction | Validation tokenized rows: 1748
+2026-07-11 16:55:51,095 | INFO | non_instruction | Step 1 started
+2026-07-11 16:56:04,274 | INFO | non_instruction | Raw extraction complete
+2026-07-11 16:56:04,277 | INFO | non_instruction | Input rows: 20859
+2026-07-11 16:56:04,279 | INFO | non_instruction | Extracted text rows: 4702
+2026-07-11 16:56:04,282 | INFO | non_instruction | Saved file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\raw_extracted_text.txt
+2026-07-11 16:56:25,092 | INFO | non_instruction | Cleaning complete
+2026-07-11 16:56:25,094 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-11 16:56:25,095 | INFO | non_instruction | Final non-instruction paragraphs: 17479
+2026-07-11 16:56:25,096 | INFO | non_instruction | Saved final file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-11 16:56:26,732 | INFO | non_instruction | Verification complete
+2026-07-11 16:56:26,738 | INFO | non_instruction | Verified file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-11 16:56:26,739 | INFO | non_instruction | Paragraphs: 17479
+2026-07-11 16:56:26,741 | INFO | non_instruction | Characters: 7102844
+2026-07-11 16:56:49,379 | INFO | non_instruction | HF dataset creation complete
+2026-07-11 16:56:49,380 | INFO | non_instruction | Total rows: 17479
+2026-07-11 16:56:49,381 | INFO | non_instruction | Train rows: 15731
+2026-07-11 16:56:49,382 | INFO | non_instruction | Validation rows: 1748
+2026-07-11 16:56:49,383 | INFO | non_instruction | Saved dataset to: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\hf_non_instruction_dataset
+2026-07-11 16:57:32,453 | INFO | non_instruction | Tokenization complete
+2026-07-11 16:57:32,456 | INFO | non_instruction | Train tokenized rows: 15731
+2026-07-11 16:57:32,457 | INFO | non_instruction | Validation tokenized rows: 1748
+2026-07-11 17:47:07,855 | INFO | non_instruction | Tokenization complete
+2026-07-11 17:47:07,862 | INFO | non_instruction | Train tokenized rows: 15731
+2026-07-11 17:47:07,863 | INFO | non_instruction | Validation tokenized rows: 1748
+2026-07-11 20:45:24,413 | INFO | non_instruction | Step 1 started
+2026-07-11 20:45:29,537 | INFO | non_instruction | Raw extraction complete
+2026-07-11 20:45:29,539 | INFO | non_instruction | Input rows: 20859
+2026-07-11 20:45:29,540 | INFO | non_instruction | Extracted text rows: 4702
+2026-07-11 20:45:29,541 | INFO | non_instruction | Saved file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\raw_extracted_text.txt
+2026-07-11 20:45:39,884 | INFO | non_instruction | Cleaning complete
+2026-07-11 20:45:39,885 | INFO | non_instruction | Input paragraphs: 18824
+2026-07-11 20:45:39,886 | INFO | non_instruction | Final non-instruction paragraphs: 17479
+2026-07-11 20:45:39,887 | INFO | non_instruction | Saved final file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-11 20:45:41,762 | INFO | non_instruction | Verification complete
+2026-07-11 20:45:41,765 | INFO | non_instruction | Verified file: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\non_instruction_data.txt
+2026-07-11 20:45:41,768 | INFO | non_instruction | Paragraphs: 17479
+2026-07-11 20:45:41,768 | INFO | non_instruction | Characters: 7102844
+2026-07-11 20:46:08,856 | INFO | non_instruction | HF dataset creation complete
+2026-07-11 20:46:08,858 | INFO | non_instruction | Total rows: 17479
+2026-07-11 20:46:08,859 | INFO | non_instruction | Train rows: 15731
+2026-07-11 20:46:08,860 | INFO | non_instruction | Validation rows: 1748
+2026-07-11 20:46:08,861 | INFO | non_instruction | Saved dataset to: D:\Swapnil\DSML_LLM\AILLM\Projects\FinanceFAQAssistant_FT\data\non_instruction_dataset\hf_non_instruction_dataset
