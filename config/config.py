@@ -30,6 +30,29 @@ class Config:
     adapter_dir: str = "artifacts/non_instruction_adapter"
     instruction_output_dir: str = "artifacts/instruction_output"
     instruction_adapter_dir: str = "artifacts/instruction_adapter"
+    instruction_poc_train_rows: int = 96
+    instruction_poc_validation_rows: int = 24
+    instruction_train_response_only: bool = True
+
+    # Instruction-stage training defaults (kept separate from non-instruction stage).
+    instruction_num_train_epochs: float = 3.0
+    instruction_max_steps: int = -1
+    instruction_per_device_train_batch_size: int = 1
+    instruction_per_device_eval_batch_size: int = 1
+    instruction_gradient_accumulation_steps: int = 2
+    instruction_learning_rate: float = 2e-5
+    instruction_warmup_ratio: float = 0.0
+    instruction_weight_decay: float = 0.01
+    instruction_logging_steps: int = 5
+    instruction_save_steps: int = 50
+    instruction_save_total_limit: int = 1
+
+    # Instruction-stage inference decoding defaults.
+    instruction_inference_do_sample: bool = True
+    instruction_inference_temperature: float = 0.7
+    instruction_inference_top_p: float = 0.9
+    instruction_inference_repetition_penalty: float = 1.2
+    instruction_inference_no_repeat_ngram_size: int = 3
 
     # Data filtering and split settings.
     min_chars_per_paragraph: int = 80
