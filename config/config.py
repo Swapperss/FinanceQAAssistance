@@ -12,12 +12,15 @@ class Config:
     # Folder and file names used during finance-domain corpus preparation.
     raw_data_dir: str = "data/raw"
     non_instruction_dir: str = "data/non_instruction_dataset"
+    instruction_dir: str = "data/instruction_dataset"
     preferred_raw_csv_filename: str = "complaints-2026-07-04_02_07.csv"
     raw_csv_pattern: str = "complaints-*.csv"
     source_text_column: str = "Consumer complaint narrative"
     raw_text_filename: str = "raw_extracted_text.txt"
     non_instruction_filename: str = "non_instruction_data.txt"
     hf_dataset_dirname: str = "hf_non_instruction_dataset"
+    instruction_dataset_filename: str = "finance_instruction_dataset.jsonl"
+    instruction_hf_dataset_dirname: str = "hf_finance_instruction_dataset"
 
     # Base causal language model for non-instruction fine-tuning.
     model_name: str = "Qwen/Qwen2.5-0.5B"
@@ -25,6 +28,8 @@ class Config:
     # Directories where training outputs will be saved.
     output_dir: str = "artifacts/non_instruction_output"
     adapter_dir: str = "artifacts/non_instruction_adapter"
+    instruction_output_dir: str = "artifacts/instruction_output"
+    instruction_adapter_dir: str = "artifacts/instruction_adapter"
 
     # Data filtering and split settings.
     min_chars_per_paragraph: int = 80
