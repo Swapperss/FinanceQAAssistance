@@ -33,6 +33,7 @@ class Config:
     # Directories where training outputs will be saved.
     output_dir: str = "artifacts/non_instruction_output"
     adapter_dir: str = "artifacts/non_instruction_adapter"
+    stage1_merged_model_dir: str = "artifacts/stage1_merged_model"
     instruction_output_dir: str = "artifacts/instruction_output"
     instruction_adapter_dir: str = "artifacts/instruction_adapter"
     instruction_poc_train_rows: int = 96
