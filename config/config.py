@@ -24,6 +24,11 @@ class Config:
 
     # Base causal language model for non-instruction fine-tuning.
     model_name: str = "Qwen/Qwen2.5-0.5B"
+    repo_url: str = "https://github.com/Swapperss/FinanceQAAssistance.git"
+
+    # Hugging Face Hub repositories used across training and inference.
+    non_instruction_adapter_repo_id: str = "Swapperss/finance-non-instruction-lora"
+    instruction_adapter_repo_id: str = "Swapperss/finance-instruction-lora"
 
     # Directories where training outputs will be saved.
     output_dir: str = "artifacts/non_instruction_output"
@@ -53,6 +58,7 @@ class Config:
     instruction_inference_top_p: float = 0.9
     instruction_inference_repetition_penalty: float = 1.2
     instruction_inference_no_repeat_ngram_size: int = 3
+    instruction_inference_max_new_tokens: int = 180
 
     # Data filtering and split settings.
     min_chars_per_paragraph: int = 80
